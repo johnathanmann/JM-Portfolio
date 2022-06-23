@@ -90,6 +90,11 @@ html{
 
 /* Work section */
 
+.work a{
+  text-decoration: none;
+  color: var(--dark)
+}
+
 .work-imgs{
   position: relative;
   border-left: 3px solid var(--green);
@@ -171,6 +176,9 @@ html{
 
   /* Small laptop screen adjustments */
 @media  screen and (max-width: 1024){
+  .hero h1{
+    margin: 150px 15px 50px 400px;
+  }
   .small-img img{
     width: 34vw;
     margin: 0px 30px;
@@ -232,24 +240,12 @@ html{
           border: none;
         }
 
-        .large-img img{
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-        }
-
-        .small-img img{
-          display: block;
-          margin-left: 70px;
-          margin-right: auto;
-        }
-
         .caption{
-          left: 100px;
+          left: 24px;
         }
 
         .caption-small{
-          left: 43px;
+          left: 20px;
         }
 
       /* Contact section */
