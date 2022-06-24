@@ -294,14 +294,22 @@ html{
 .caption{
   left: 50px
 }
+.large-img{
+  margin: 0px 30px;
+}
+
 .small-img img{
   width: 75vw;
   display: block;
   margin: 0px 40px;
 }
 
+.caption{
+  left: 24px;
+}
+
 .caption-small{
-  left: 55px
+  left: 42px
 }
 
 /* Contact section */
